@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\rik\Desktop\Codo-a-codo-ProyectoFinal\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2099928515.index
+1279055887.index
+3391035140.index
+128772469.index
+3411649755.index
+3758369592.index

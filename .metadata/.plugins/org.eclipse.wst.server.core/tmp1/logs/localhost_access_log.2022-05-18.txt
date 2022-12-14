@@ -1,0 +1,9 @@
+127.0.0.1 - - [18/May/2022:22:03:00 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [18/May/2022:22:03:05 -0300] "GET / HTTP/1.1" 404 759
+127.0.0.1 - - [18/May/2022:22:34:32 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [18/May/2022:22:34:34 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [18/May/2022:22:37:21 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [18/May/2022:22:38:18 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+127.0.0.1 - - [18/May/2022:23:27:39 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [18/May/2022:23:27:40 -0300] "GET /Primeros_pasos_JSP/formulario1.html HTTP/1.1" 200 508
+0:0:0:0:0:0:0:1 - - [18/May/2022:23:28:16 -0300] "POST /Primeros_pasos_JSP/RecuperacionUsuario HTTP/1.1" 200 87

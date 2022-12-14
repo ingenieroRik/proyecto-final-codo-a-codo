@@ -1,0 +1,24 @@
+<Context>
+
+<Resource name="jdbc/productos" auth="container" type="javax.sql.DataSource"
+		maxActive="15" maxIdle="3" maxWait="5000"
+		
+		
+		
+		username="ingeniero_rik" password="Montiel_2068"
+		driverClassName="com.mysql.jdbc.Driver"
+		
+		
+		
+		url="jdbc:mysql://https://www.db4free.net/base_datos_rik/productos">
+		</Resource>
+
+</Context>
+
+
+
+<!--  
+		username="root" password="master4" -->
+		
+		<!--  
+		url="jdbc:mysql://localhost:3306/curso_sql"> -->

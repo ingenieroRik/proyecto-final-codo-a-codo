@@ -1,0 +1,6 @@
+127.0.0.1 - - [19/May/2022:19:27:57 -0300] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:29:04 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:29:04 -0300] "GET /favicon.ico HTTP/1.1" 404 770
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:34:11 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:46:15 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:47:22 -0300] "GET /Primeros_pasos_JSP/saludo.jsp HTTP/1.1" 200 159

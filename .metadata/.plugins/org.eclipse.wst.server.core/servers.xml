@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="apache-tomcat-9.0.55" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="12">
+    <list key="modules" value0="Primeros_pasos_JSP::org.eclipse.jst.jee.server:Primeros_pasos_JSP::jst.web::4.0" value1="WebDeProductos::org.eclipse.jst.jee.server:WebDeProductos::jst.web::4.0" value2="testHTML::org.eclipse.jst.jee.server:testHTML::jst.web::4.0" value3="GestionCRUD::org.eclipse.jst.jee.server:GestionCRUD::jst.web::4.0" value4="PruebaWebMaven::org.eclipse.jst.j2ee.server:PruebaWebMaven::jst.web::2.3" value5="ClaseJavaWeb::org.eclipse.jst.jee.server:ClaseJavaWeb::jst.web::4.0" value6="Codo-a-codo-ProyectoFinal::org.eclipse.jst.jee.server:Codo-a-codo-ProyectoFinal::jst.web::4.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/apache-tomcat-9.0.55 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="apache-tomcat-9.0.55 at localhost" name="apache-tomcat-9.0.55 at localhost" runtime-id="apache-tomcat-9.0.55" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="WebDeProductos::org.eclipse.jst.jee.server:WebDeProductos::jst.web::4.0"/>
+  </server>
+</servers>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2636141022.index
+\WebDeProductos\src\main\java
+C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3727777047.index
+\ClaseJavaWeb\src\main\java
+C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4084263825.index
+\GestionCRUD\src\main\java
+C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2825629967.index
+\Primeros_pasos_JSP\src\main\java
+C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4097694198.index
+\Codo-a-codo-ProyectoFinal\src\main\java

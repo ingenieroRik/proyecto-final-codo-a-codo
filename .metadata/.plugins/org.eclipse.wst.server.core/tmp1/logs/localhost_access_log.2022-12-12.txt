@@ -1,0 +1,6 @@
+127.0.0.1 - - [12/Dec/2022:18:13:18 -0300] "GET / HTTP/1.1" 404 687
+127.0.0.1 - - [12/Dec/2022:18:13:21 -0300] "GET /WebDeProductos/ControladorProductos HTTP/1.1" 200 27875
+127.0.0.1 - - [12/Dec/2022:18:13:38 -0300] "GET /WebDeProductos/ControladorProductos;jsessionid=EA5D127EFF5CE97F32699353554AA459?instruccion=Eliminar&CArticulo=AR26 HTTP/1.1" 200 23831
+127.0.0.1 - - [12/Dec/2022:18:13:44 -0300] "GET /WebDeProductos/ControladorProductos?instruccion=cargar&CArticulo=AR10 HTTP/1.1" 200 1511
+127.0.0.1 - - [12/Dec/2022:18:14:27 -0300] "GET /WebDeProductos/ControladorProductos?instruccion=actualizarBBDD&CArt=AR10&seccion=JUGUETER%CDA&NArt=CONSOLA+VIDEO&fecha=2002-09-24&precio=442.54&importado=1&pOrig=USA&envio=Actualizar HTTP/1.1" 200 23831
+127.0.0.1 - - [12/Dec/2022:18:14:35 -0300] "GET /WebDeProductos/insertaProducto.jsp HTTP/1.1" 200 1501

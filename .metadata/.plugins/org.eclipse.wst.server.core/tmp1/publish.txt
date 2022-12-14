@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Mon Dec 12 19:03:52 ART 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\rik\\Desktop\\java\\GestionCRUD\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\rik\\Desktop\\java\\GestionCRUD\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\rik\\Desktop\\java\\GestionCRUD\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\rik\\Desktop\\java\\GestionCRUD\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE-sources.jar

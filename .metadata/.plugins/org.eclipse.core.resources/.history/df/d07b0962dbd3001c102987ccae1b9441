@@ -1,0 +1,146 @@
+package conectaBD;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+import com.mysql.cj.protocol.Resultset;
+
+public class AplicacionConsultaCV {
+
+	public static void main(String[] args) {
+		
+		JFrame mimarco=new Marco_Aplicacion();
+		mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mimarco.setVisible(true);
+	}
+
+}
+
+class Marco_Aplicacion extends JFrame{
+	
+	public Marco_Aplicacion() {
+		
+		setTitle ("Consulta CV");
+		setBounds (500,300,600,400);
+		setLayout(new BorderLayout());
+		JPanel menus=new JPanel();
+		menus.setLayout(new FlowLayout());
+		articulo=new JComboBox();
+		articulo.setEditable(false);
+		articulo.addItem("Todos");
+		cliente=new JComboBox();
+		cliente.setEditable(false);
+		cliente.addItem("Todos");
+		resultado=new JTextArea(4,50);
+		resultado.setEditable(false);
+		add(resultado);
+		menus.add(articulo);
+		menus.add(cliente);
+		add(menus, BorderLayout.NORTH);
+		add(resultado, BorderLayout.CENTER);
+		JButton botonConsulta=new JButton("Consulta");
+		botonConsulta.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {	
+				
+				ejecutaConsulta();
+			}			
+		});
+		add(botonConsulta, BorderLayout.SOUTH);
+		
+		
+		// conexion con BBDD
+		
+		
+		
+        try {
+			//1. creando conexion
+			Connection miConexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/ventascuentavueltas", "root","master4");
+		
+			//2. creando objeto statement
+			Statement sentencia=miConexion.createStatement();
+		
+			// combobox articulo
+			String consulta="select distinctrow articulo from ventas_cv";
+			ResultSet rs=sentencia.executeQuery(consulta);
+			while(rs.next()) {
+				articulo.addItem(rs.getString(1));
+						
+			}
+			rs.close();
+			
+			//combobox cliente
+			consulta="select distinctrow cliente from ventas_cv";
+			rs=sentencia.executeQuery(consulta);
+			
+			while(rs.next()) {
+				cliente.addItem(rs.getString(1));
+			
+			}	
+			rs.close();
+			
+			
+	   }catch (Exception e) {
+		
+		//e.printStackTrace();
+	   }
+        
+        
+	   }
+	
+		private void ejecutaConsulta() {
+			
+			
+			ResultSet rs=null;
+			try {
+				String art=(String)articulo.getSelectedItem();
+				enviaConsultaArticulo=miConexion.prepareStatement(consultaArticulo);
+				enviaConsultaArticulo.setString(1,art);
+				rs=enviaConsultaArticulo.executeQuery();
+				
+				while(rs.next()) {
+					
+					resultado.append(rs.getString(1));
+					resultado.append(", ");
+					resultado.append(rs.getString(2));
+					resultado.append(", ");
+					resultado.append(rs.getString(3));
+					resultado.append(", ");
+					resultado.append(rs.getString(4));
+					resultado.append("\n ");
+				}
+				
+				
+			}catch(Exception e){
+				
+			}
+			
+			
+			
+		}
+	
+	
+		private Connection miConexion;
+		private PreparedStatement enviaConsultaArticulo;
+		private final String consultaArticulo="select FECHA,ARTICULO,CANTIDAD,CLIENTE from ventas_cv where ARTICULO=?";
+	    private JComboBox articulo;
+	    private JComboBox cliente;
+	    private JTextArea resultado;
+	    
+	
+}
