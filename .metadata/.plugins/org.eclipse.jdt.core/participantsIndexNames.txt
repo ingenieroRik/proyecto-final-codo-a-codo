@@ -5,6 +5,8 @@ C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\
 \ClaseJavaWeb\src\main\java
 C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4084263825.index
 \GestionCRUD\src\main\java
+C:\Users\rik\Desktop\Codo-a-codo-ProyectoFinal\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2636141022.index
+\WebDeProductos\src\main\java
 C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2825629967.index
 \Primeros_pasos_JSP\src\main\java
 C:\Users\rik\Desktop\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4097694198.index

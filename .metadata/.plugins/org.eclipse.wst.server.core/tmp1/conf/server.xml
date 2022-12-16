@@ -155,7 +155,8 @@
 
       <Context docBase="Primeros_pasos_JSP" path="/Primeros_pasos_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Primeros_pasos_JSP"/><Context docBase="WebDeProductos" path="/WebDeProductos" reloadable="true" source="org.eclipse.jst.jee.server:WebDeProductos">
 
-<Resource auth="container" driverClassName="com.mysql.jdbc.Driver" maxActive="15" maxIdle="3" maxWait="5000" name="jdbc/productos" password="master4" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/curso_sql" username="root">
+<Resource auth="container" driverClassName="com.mysql.jdbc.Driver" maxActive="15" maxIdle="3" maxWait="5000" name="jdbc/productos" password="Montiel_2068" type="javax.sql.DataSource" url="jdbc:mysql://db4free.net/base_datos_rik" username="ingeniero_rik">
+		
 		
 		</Resource>
 

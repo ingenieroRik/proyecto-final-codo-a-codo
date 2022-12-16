@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles.css" />
 <title>Insert title here</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 			<input type="text" name="seccion" id="seccion" value="${ProductoActualizar.seccion }"></td>
 		</tr>
 		<tr>
-			<td>Nombre Articulo</td>
+			<td class="nombrearticulo">Nombre Articulo</td>
 			<td><label for="NArt"></label>
 			<input type="text" name="NArt" id="NArt" value="${ProductoActualizar.nArt }"></td>
 		</tr>

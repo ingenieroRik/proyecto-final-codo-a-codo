@@ -10,8 +10,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
+
+
+<!--------------------styles----------------------------------------> 
 <style type="text/css">
 
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
 .cabecera{
 
   font-size:1.0em;
@@ -22,31 +30,41 @@
 }
 
 .filas{
-
+	width: 120px;
   text-align:center;
-  background-color:#5882FA;
+  background-color:#39b54a;
 
 }
 
 
-table{
-
+.tabla{
 	float:left;
-	
+	text-align: center;
 }
 
+.boton{
+	border-radius:3px;
+	border:none;
+	background-color:#1259c3;
+	margin-top:30px;
+	height:30px;
+	width:50%;
+	color:#ebebeb;
+
+}
 #contenedorBoton{
 	margin-left:750px;
-
 }
 
 </style>
+<!-- ----------------------------------------------------------------------------------- -->
+
 </head>
 
 
 <body>
 	
-	<table>
+	<table class="tabla">
 	
 	<tr>
 	
@@ -101,7 +119,7 @@ table{
 	</table>
 
 	<div id="contenedorBoton">
-		<input type="button" value="Insertar Registro" onclick="window.location.href='insertaProducto.jsp' "/>
+		<input type="button" value="Insertar Registro" class="boton"  onclick="window.location.href='insertaProducto.jsp' "/>
 	
 	</div>
 
