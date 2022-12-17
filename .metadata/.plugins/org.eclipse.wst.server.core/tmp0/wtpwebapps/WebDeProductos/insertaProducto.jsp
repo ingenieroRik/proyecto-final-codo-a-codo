@@ -8,9 +8,6 @@
 <!--------------------styles---------------------------------------->
 <style type="text/css">
 
-h1 {
-	text-align:center"
-}
 
 table {
 	width:50%;
@@ -39,10 +36,7 @@ input {
 	background-color:#993333;
 	color:#ebebeb;
 }
-.volver{
-	background-color:#eac926;
-	color:#ebebeb;
-}
+
 
 </style>
 <!-- ----------------------------------------------------------------------------------- -->
@@ -56,8 +50,8 @@ input {
 
 	<table >
 		<tr>
-			<td width="27%">Codigo Articulo</td>
-			<td width="73%"><label for="CArt"></label>
+			<td >Codigo Articulo</td>
+			<td><label for="CArt"></label>
 			<input type="text" name="CArt"></td>
 		</tr>
 		<tr>
@@ -96,7 +90,6 @@ input {
 			<tr class="botones">
 				<td><input  class="envio" type="submit" name="envio" id="envio" value="Enviar"></td>
 				<td><input  class="restablecer" type="reset" name="borrar" id="borrar" value="Restablecer"></td>
-				<td><input  class="volver" type="button" value="Volver" onclick="href=jdbc:mysql://db4free.net/base_datos_rik"></td>
 			</tr>	
 				
 		</table>

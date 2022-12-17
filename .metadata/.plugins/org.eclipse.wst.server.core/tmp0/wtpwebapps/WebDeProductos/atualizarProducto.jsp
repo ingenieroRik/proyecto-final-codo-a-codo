@@ -10,9 +10,6 @@
 <!--------------------styles---------------------------------------->
 <style type="text/css">
 
-h1 {
-	text-align:center"
-}
 
 table {
 	width:50%;
@@ -34,10 +31,7 @@ input {
 	background-color:#993333;
 	color:#ebebeb;
 }
-.volver{
-	background-color:#eac926;
-	color:#ebebeb;
-}
+
 .botones {
 	display:flex;
 	justify-content:space-around;
@@ -55,7 +49,7 @@ input {
 		<input type="hidden" name="instruccion" value="actualizarBBDD">
 		<input type="hidden" name="CArt" value="${ProductoActualizar.cArt }">
 
-		<table width="50%" border="0">
+		<table>
 		
 		<tr>
 			<td>Seccion</td>
@@ -93,7 +87,7 @@ input {
 		<tr class="botones">
 			<td><input class="envio" type="submit" name="envio" id="envio" value="Actualizar"></td>
 			<td><input class="restablecer" type="reset" name="borrar" id="borrar" value="Restablecer"></td>
-			<td><input  class="volver" type="button" value="Volver" onclick="href=jdbc:mysql://db4free.net/base_datos_rik"></td>
+			
 			</tr>	
 				
 	
